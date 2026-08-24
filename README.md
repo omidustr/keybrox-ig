@@ -1,7 +1,7 @@
 # KeyBrox_TR — Instagram Otomatik Yayın
 
 Günde iki kez (11:00 ve 19:00 Türkiye saati) sıradaki içerik setini Instagram'a yayınlar:
-**1 carousel gönderi + 3 karelik hikaye.** Kuyrukta **12 set** var.
+**1 carousel gönderi + 3 karelik hikaye.** Kuyrukta **3 set** var.
 
 GitHub'ın sunucularında çalışır — bilgisayarın kapalı olabilir.
 
@@ -9,10 +9,13 @@ GitHub'ın sunucularında çalışır — bilgisayarın kapalı olabilir.
 
 | Set | Seri | Konu |
 |---|---|---|
-| 1–9 | Tanıtım | KeyBrox lansmanı — platformun tamamı |
 | 10 | Danışman & Ofis | Emeğin görünsün *(danışman)* |
 | 11 | Danışman & Ofis | Ofisin tamamı tek panelde *(broker)* |
 | 12 | Danışman & Ofis | Büyük oyuncuların araçları *(medya + AI)* |
+
+Tanıtım serisi (set 1–9) hesapta zaten paylaşıldığı için **25 Ağustos 2026'da kuyruktan
+çıkarıldı**; görselleri `KeyBrox-Social-Media/KeyBrox_TR/` altında PNG olarak duruyor.
+`state/durum.json` içindeki yayın kaydı korundu.
 
 Set 10–12'nin gönderi metinleri ve hikaye çıkartma notları → `METINLER.md`.
 Görseller `_motor/keybrox-motor.mjs` ile üretilir; metni değiştirip motoru yeniden
