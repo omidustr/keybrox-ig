@@ -146,6 +146,63 @@
         "media/story/09/02.jpg",
         "media/story/09/03.jpg"
       ]
+    },
+    {
+      "sira": 10,
+      "ad": "10-Danisman-Emek",
+      "caption": "Kapanışı sen yaptın. Adını kimse anmadı.\n\nEmlakta en az konuşulan konu bu: emek görünmüyor. Pas veren danışman boşta kalıyor, bölüşüm kapanış masasında tartışmaya dönüyor, angarya hep aynı kişiye kalıyor.\n\nKeyBrox bunu iyi niyete değil sisteme bağlıyor:\n\n• Asist zinciri — sana pas veren danışman payını ve puanını alır\n• Komisyon bölüşümü — paydaş payları baştan yazılır, %100 doğrulanır\n• Onur duvarı, XP ve rozetler — ayın kapanışları kayıt altında kalır\n• AI ilan metni, evrak merkezi, imzalı yer gösterme zabıtı — angarya sende kalmaz\n• Panik butonu — 3 saniye basılı tut; konumun paylaşılır, 4 kademeli zincir başlar\n\nEmeğin görünsün.\n\nkeybrox.com — bağlantı profilde.\n\n#KeyBrox #EmlakDanışmanı #Emlak #Gayrimenkul #EmlakOfisi #PropTech #EmlakTeknolojisi #Komisyon #EmlakYazılımı #GayrimenkulDanışmanı",
+      "post": [
+        "media/post/10/01.jpg",
+        "media/post/10/02.jpg",
+        "media/post/10/03.jpg",
+        "media/post/10/04.jpg",
+        "media/post/10/05.jpg",
+        "media/post/10/06.jpg",
+        "media/post/10/07.jpg"
+      ],
+      "story": [
+        "media/story/10/01.jpg",
+        "media/story/10/02.jpg",
+        "media/story/10/03.jpg"
+      ]
+    },
+    {
+      "sira": 11,
+      "ad": "11-Ofis-Kontrol",
+      "caption": "Ekibin neden gidiyor?\n\nCevap genelde para değil: emeği ölçülmeyen, payı belirsiz kalan danışman gider. Ölçemediğin şeyi yönetemezsin — ve ölçmeyen ofis, sızan parayı da göremez.\n\nKeyBrox ofisin tamamını tek panele alıyor:\n\n• Beş ayrı abonelik yerine tek çatı — CRM, muhasebe, kendi portalın ve medya üretimi\n• Kayıp parayı görünür yapar — takipsiz tahsilat, kârlılık, başa-baş noktası her gün\n• Ekibin ne yapıyor, canlı — ofis nabzı, görev komuta merkezi, danışman karnesi\n• Ekibini dakikada kur — danışman davet et, rol ata, hangi modül açık sen söyle\n• Ofis cebinde — Android ve web, sahada da ofiste de aynı panel\n\n14 gün ücretsiz. Kredi kartı gerekmez, istediğin an bırakırsın.\n\nkeybrox.com — bağlantı profilde.\n\n#KeyBrox #EmlakOfisi #Broker #Emlak #Gayrimenkul #OfisYönetimi #PropTech #EmlakYazılımı #EkipYönetimi #EmlakTeknolojisi",
+      "post": [
+        "media/post/11/01.jpg",
+        "media/post/11/02.jpg",
+        "media/post/11/03.jpg",
+        "media/post/11/04.jpg",
+        "media/post/11/05.jpg",
+        "media/post/11/06.jpg",
+        "media/post/11/07.jpg"
+      ],
+      "story": [
+        "media/story/11/01.jpg",
+        "media/story/11/02.jpg",
+        "media/story/11/03.jpg"
+      ]
+    },
+    {
+      "sira": 12,
+      "ad": "12-Buyuk-Oyuncu-Araclari",
+      "caption": "Büyük oyuncuların araçları, senin ofisinde.\n\nSinematik arazi videosu için dron ekibi tutmana gerek yok. İlanı sekiz dile çevirtmek için ajans aramana da.\n\nKeyBrox planında zaten var:\n\n• Sanal Dron — ada ve parselden sinematik arazi turu, dakikalar içinde\n• 3D arsa turu — 60fps, ada/parsel bilgisiyle\n• Ev sunum videosu — seslendirmeli, müzikli, altyazılı 1080p\n• 360° sanal tur — linki gönder, müşteri evi evden gezsin\n• AI ilan metni — aynı ilan 8 dilde yayına hazır; yayından önce AI denetler\n• Ev Değerleme — aynı ev için 3 senaryo, 3 ayrı rapor, her fiyatın gerekçesiyle\n• Kendi portalın ve SEO'n — ilan senin, müşteri senin\n\nİlanın yalnızca yayınlanmaz; senin için çalışır.\n\nkeybrox.com — bağlantı profilde.\n\n#KeyBrox #Emlak #Gayrimenkul #SanalTur #EmlakVideo #EmlakDanışmanı #EmlakOfisi #PropTech #YapayZeka #EmlakPazarlama",
+      "post": [
+        "media/post/12/01.jpg",
+        "media/post/12/02.jpg",
+        "media/post/12/03.jpg",
+        "media/post/12/04.jpg",
+        "media/post/12/05.jpg",
+        "media/post/12/06.jpg",
+        "media/post/12/07.jpg"
+      ],
+      "story": [
+        "media/story/12/01.jpg",
+        "media/story/12/02.jpg",
+        "media/story/12/03.jpg"
+      ]
     }
   ]
 }
