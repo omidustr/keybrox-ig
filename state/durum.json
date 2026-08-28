@@ -1,5 +1,5 @@
 {
-  "sonraki": 14,
+  "sonraki": 15,
   "log": [
     {
       "zaman": "2026-08-24T08:13:15+00:00",
@@ -68,6 +68,16 @@
       "gonderi_id": "18189771397395773",
       "hikaye_idleri": [
         "18480401764108760"
+      ],
+      "sonuc": "BASARILI"
+    },
+    {
+      "zaman": "2026-08-28T20:08:26+00:00",
+      "sira": 14,
+      "ad": "14-CRM-Musteri-Adayi",
+      "gonderi_id": "17875859667691276",
+      "hikaye_idleri": [
+        "18109308520998769"
       ],
       "sonuc": "BASARILI"
     }
