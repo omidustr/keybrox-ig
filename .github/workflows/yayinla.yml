@@ -2,8 +2,14 @@ name: KeyBrox Instagram yayin
 
 on:
   schedule:
-    - cron: '0 8 * * *'    # 11:00 Turkiye saati
-    - cron: '0 16 * * *'   # 19:00 Turkiye saati
+    # Tam saatte (0 8 / 0 16) tetiklenme 27 Agu'da iki kez 3+ saat gecikti
+    # (11:00 -> 14:16, 19:00 -> 22:35). GitHub tam-saat noktalarini en yogun
+    # aninlar olarak belgeliyor, rastgele bir dakikaya kaydirmayi oneriyor.
+    # Simdi :07/:22/:37/:52'de, hedef saatten sonraki ~4 saat boyunca tekrar
+    # dener; publish.py kuyrukta is yoksa aninda cikar (idempotent), bu
+    # yuzden fazladan tetiklenme guvenlidir ve cift gonderi yapmaz.
+    - cron: '7,22,37,52 8-11 * * *'    # 11:07-14:52 Turkiye saati
+    - cron: '7,22,37,52 16-19 * * *'   # 19:07-22:52 Turkiye saati
   workflow_dispatch:
     inputs:
       dry_run:
