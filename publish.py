@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """KeyBrox_TR — Instagram otomatik yayinlayici.
-Sirdaki seti alir: 1 carousel gonderi + 3 hikaye karesi. Basarili olursa siradaki sete gecer.
+Sirdaki seti alir: 1 gonderi (tek kareyse foto, coklu kareyse carousel) + hikaye
+karesi/kareleri. Basarili olursa siradaki sete gecer.
 """
 import json, os, sys, time, urllib.parse, urllib.request, datetime
 
@@ -65,21 +66,29 @@ def main():
         print("DRY_RUN — hicbir sey yayinlanmadi.")
         return 0
 
-    # 1) Carousel
-    children = []
-    for p in item["post"]:
-        r = call("POST", f"{IG_ID}/media", {"image_url": RAW + p, "is_carousel_item": "true"})
-        children.append(r["id"])
-        print("  cocuk kapsayici:", r["id"])
-    for c in children:
-        wait_ready(c)
-    car = call("POST", f"{IG_ID}/media", {
-        "media_type": "CAROUSEL",
-        "children": ",".join(children),
-        "caption": item["caption"],
-    })["id"]
-    wait_ready(car)
-    post_id = publish(car)
+    # 1) Gonderi — tek kare ise duz foto, coklu ise carousel.
+    # Instagram Graph API tek elemanli CAROUSEL kabul etmiyor (min 2 cocuk ister),
+    # bu yuzden 1 karelik gunler normal IMAGE olarak gonderilir.
+    if len(item["post"]) == 1:
+        img = call("POST", f"{IG_ID}/media", {"image_url": RAW + item["post"][0], "caption": item["caption"]})
+        img_id = img["id"]
+        wait_ready(img_id)
+        post_id = publish(img_id)
+    else:
+        children = []
+        for p in item["post"]:
+            r = call("POST", f"{IG_ID}/media", {"image_url": RAW + p, "is_carousel_item": "true"})
+            children.append(r["id"])
+            print("  cocuk kapsayici:", r["id"])
+        for c in children:
+            wait_ready(c)
+        car = call("POST", f"{IG_ID}/media", {
+            "media_type": "CAROUSEL",
+            "children": ",".join(children),
+            "caption": item["caption"],
+        })["id"]
+        wait_ready(car)
+        post_id = publish(car)
     print("  GONDERI YAYINLANDI:", post_id)
 
     # 2) Hikayeler

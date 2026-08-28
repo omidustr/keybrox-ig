@@ -1,61 +1,391 @@
 {
-  "sets": [
-    {
-      "sira": 10,
-      "ad": "10-Danisman-Emek",
-      "caption": "Kapanışı sen yaptın. Adını kimse anmadı.\n\nEmlakta en az konuşulan konu bu: emek görünmüyor. Pas veren danışman boşta kalıyor, bölüşüm kapanış masasında tartışmaya dönüyor, angarya hep aynı kişiye kalıyor.\n\nKeyBrox bunu iyi niyete değil sisteme bağlıyor:\n\n• Asist zinciri — sana pas veren danışman payını ve puanını alır\n• Komisyon bölüşümü — paydaş payları baştan yazılır, %100 doğrulanır\n• Onur duvarı, XP ve rozetler — ayın kapanışları kayıt altında kalır\n• AI ilan metni, evrak merkezi, imzalı yer gösterme zabıtı — angarya sende kalmaz\n• Panik butonu — 3 saniye basılı tut; konumun paylaşılır, 4 kademeli zincir başlar\n\nEmeğin görünsün.\n\nkeybrox.com — bağlantı profilde.\n\n#KeyBrox #EmlakDanışmanı #Emlak #Gayrimenkul #EmlakOfisi #PropTech #EmlakTeknolojisi #Komisyon #EmlakYazılımı #GayrimenkulDanışmanı",
-      "post": [
-        "media/post/10/01.jpg",
-        "media/post/10/02.jpg",
-        "media/post/10/03.jpg",
-        "media/post/10/04.jpg",
-        "media/post/10/05.jpg",
-        "media/post/10/06.jpg",
-        "media/post/10/07.jpg"
-      ],
-      "story": [
-        "media/story/10/01.jpg",
-        "media/story/10/02.jpg",
-        "media/story/10/03.jpg"
-      ]
-    },
-    {
-      "sira": 11,
-      "ad": "11-Ofis-Kontrol",
-      "caption": "Ekibin neden gidiyor?\n\nCevap genelde para değil: emeği ölçülmeyen, payı belirsiz kalan danışman gider. Ölçemediğin şeyi yönetemezsin — ve ölçmeyen ofis, sızan parayı da göremez.\n\nKeyBrox ofisin tamamını tek panele alıyor:\n\n• Beş ayrı abonelik yerine tek çatı — CRM, muhasebe, kendi portalın ve medya üretimi\n• Kayıp parayı görünür yapar — takipsiz tahsilat, kârlılık, başa-baş noktası her gün\n• Ekibin ne yapıyor, canlı — ofis nabzı, görev komuta merkezi, danışman karnesi\n• Ekibini dakikada kur — danışman davet et, rol ata, hangi modül açık sen söyle\n• Ofis cebinde — Android ve web, sahada da ofiste de aynı panel\n\n14 gün ücretsiz. Kredi kartı gerekmez, istediğin an bırakırsın.\n\nkeybrox.com — bağlantı profilde.\n\n#KeyBrox #EmlakOfisi #Broker #Emlak #Gayrimenkul #OfisYönetimi #PropTech #EmlakYazılımı #EkipYönetimi #EmlakTeknolojisi",
-      "post": [
-        "media/post/11/01.jpg",
-        "media/post/11/02.jpg",
-        "media/post/11/03.jpg",
-        "media/post/11/04.jpg",
-        "media/post/11/05.jpg",
-        "media/post/11/06.jpg",
-        "media/post/11/07.jpg"
-      ],
-      "story": [
-        "media/story/11/01.jpg",
-        "media/story/11/02.jpg",
-        "media/story/11/03.jpg"
-      ]
-    },
-    {
-      "sira": 12,
-      "ad": "12-Buyuk-Oyuncu-Araclari",
-      "caption": "Büyük oyuncuların araçları, senin ofisinde.\n\nSinematik arazi videosu için dron ekibi tutmana gerek yok. İlanı sekiz dile çevirtmek için ajans aramana da.\n\nKeyBrox planında zaten var:\n\n• Sanal Dron — ada ve parselden sinematik arazi turu, dakikalar içinde\n• 3D arsa turu — 60fps, ada/parsel bilgisiyle\n• Ev sunum videosu — seslendirmeli, müzikli, altyazılı 1080p\n• 360° sanal tur — linki gönder, müşteri evi evden gezsin\n• AI ilan metni — aynı ilan 8 dilde yayına hazır; yayından önce AI denetler\n• Ev Değerleme — aynı ev için 3 senaryo, 3 ayrı rapor, her fiyatın gerekçesiyle\n• Kendi portalın ve SEO'n — ilan senin, müşteri senin\n\nİlanın yalnızca yayınlanmaz; senin için çalışır.\n\nkeybrox.com — bağlantı profilde.\n\n#KeyBrox #Emlak #Gayrimenkul #SanalTur #EmlakVideo #EmlakDanışmanı #EmlakOfisi #PropTech #YapayZeka #EmlakPazarlama",
-      "post": [
-        "media/post/12/01.jpg",
-        "media/post/12/02.jpg",
-        "media/post/12/03.jpg",
-        "media/post/12/04.jpg",
-        "media/post/12/05.jpg",
-        "media/post/12/06.jpg",
-        "media/post/12/07.jpg"
-      ],
-      "story": [
-        "media/story/12/01.jpg",
-        "media/story/12/02.jpg",
-        "media/story/12/03.jpg"
-      ]
-    }
-  ]
+ "sets": [
+  {
+   "sira": 10,
+   "ad": "10-Danisman-Emek",
+   "caption": "Kapanışı sen yaptın. Adını kimse anmadı.\n\nEmlakta en az konuşulan konu bu: emek görünmüyor. Pas veren danışman boşta kalıyor, bölüşüm kapanış masasında tartışmaya dönüyor, angarya hep aynı kişiye kalıyor.\n\nKeyBrox bunu iyi niyete değil sisteme bağlıyor:\n\n• Asist zinciri — sana pas veren danışman payını ve puanını alır\n• Komisyon bölüşümü — paydaş payları baştan yazılır, %100 doğrulanır\n• Onur duvarı, XP ve rozetler — ayın kapanışları kayıt altında kalır\n• AI ilan metni, evrak merkezi, imzalı yer gösterme zabıtı — angarya sende kalmaz\n• Panik butonu — 3 saniye basılı tut; konumun paylaşılır, 4 kademeli zincir başlar\n\nEmeğin görünsün.\n\nkeybrox.com — bağlantı profilde.\n\n#KeyBrox #EmlakDanışmanı #Emlak #Gayrimenkul #EmlakOfisi #PropTech #EmlakTeknolojisi #Komisyon #EmlakYazılımı #GayrimenkulDanışmanı",
+   "post": [
+    "media/post/10/01.jpg",
+    "media/post/10/02.jpg",
+    "media/post/10/03.jpg",
+    "media/post/10/04.jpg",
+    "media/post/10/05.jpg",
+    "media/post/10/06.jpg",
+    "media/post/10/07.jpg"
+   ],
+   "story": [
+    "media/story/10/01.jpg",
+    "media/story/10/02.jpg",
+    "media/story/10/03.jpg"
+   ]
+  },
+  {
+   "sira": 11,
+   "ad": "11-Ofis-Kontrol",
+   "caption": "Ekibin neden gidiyor?\n\nCevap genelde para değil: emeği ölçülmeyen, payı belirsiz kalan danışman gider. Ölçemediğin şeyi yönetemezsin — ve ölçmeyen ofis, sızan parayı da göremez.\n\nKeyBrox ofisin tamamını tek panele alıyor:\n\n• Beş ayrı abonelik yerine tek çatı — CRM, muhasebe, kendi portalın ve medya üretimi\n• Kayıp parayı görünür yapar — takipsiz tahsilat, kârlılık, başa-baş noktası her gün\n• Ekibin ne yapıyor, canlı — ofis nabzı, görev komuta merkezi, danışman karnesi\n• Ekibini dakikada kur — danışman davet et, rol ata, hangi modül açık sen söyle\n• Ofis cebinde — Android ve web, sahada da ofiste de aynı panel\n\n14 gün ücretsiz. Kredi kartı gerekmez, istediğin an bırakırsın.\n\nkeybrox.com — bağlantı profilde.\n\n#KeyBrox #EmlakOfisi #Broker #Emlak #Gayrimenkul #OfisYönetimi #PropTech #EmlakYazılımı #EkipYönetimi #EmlakTeknolojisi",
+   "post": [
+    "media/post/11/01.jpg",
+    "media/post/11/02.jpg",
+    "media/post/11/03.jpg",
+    "media/post/11/04.jpg",
+    "media/post/11/05.jpg",
+    "media/post/11/06.jpg",
+    "media/post/11/07.jpg"
+   ],
+   "story": [
+    "media/story/11/01.jpg",
+    "media/story/11/02.jpg",
+    "media/story/11/03.jpg"
+   ]
+  },
+  {
+   "sira": 12,
+   "ad": "12-Buyuk-Oyuncu-Araclari",
+   "caption": "Büyük oyuncuların araçları, senin ofisinde.\n\nSinematik arazi videosu için dron ekibi tutmana gerek yok. İlanı sekiz dile çevirtmek için ajans aramana da.\n\nKeyBrox planında zaten var:\n\n• Sanal Dron — ada ve parselden sinematik arazi turu, dakikalar içinde\n• 3D arsa turu — 60fps, ada/parsel bilgisiyle\n• Ev sunum videosu — seslendirmeli, müzikli, altyazılı 1080p\n• 360° sanal tur — linki gönder, müşteri evi evden gezsin\n• AI ilan metni — aynı ilan 8 dilde yayına hazır; yayından önce AI denetler\n• Ev Değerleme — aynı ev için 3 senaryo, 3 ayrı rapor, her fiyatın gerekçesiyle\n• Kendi portalın ve SEO'n — ilan senin, müşteri senin\n\nİlanın yalnızca yayınlanmaz; senin için çalışır.\n\nkeybrox.com — bağlantı profilde.\n\n#KeyBrox #Emlak #Gayrimenkul #SanalTur #EmlakVideo #EmlakDanışmanı #EmlakOfisi #PropTech #YapayZeka #EmlakPazarlama",
+   "post": [
+    "media/post/12/01.jpg",
+    "media/post/12/02.jpg",
+    "media/post/12/03.jpg",
+    "media/post/12/04.jpg",
+    "media/post/12/05.jpg",
+    "media/post/12/06.jpg",
+    "media/post/12/07.jpg"
+   ],
+   "story": [
+    "media/story/12/01.jpg",
+    "media/story/12/02.jpg",
+    "media/story/12/03.jpg"
+   ]
+  },
+  {
+   "sira": 13,
+   "ad": "13-30-Plus-Modul",
+   "caption": "Bir program CRM, biri muhasebe, biri sosyal medya... Hesabını sen mi tutacaksın? KeyBrox'ta müşteriden komisyona, muhasebeden motivasyona 30'dan fazla modül tek çatı altında. Tek abonelik, tek ekran, tam kontrol. 14 gün ücretsiz dene → keybrox.com\n\n#KeyBrox #EmlakOfisi #EmlakCRM #OfisYonetimi #GayrimenkulYazilimi #EmlakDanismani #EmlakTeknolojisi",
+   "post": [
+    "media/post/13/01.jpg"
+   ],
+   "story": [
+    "media/story/13/01.jpg"
+   ]
+  },
+  {
+   "sira": 14,
+   "ad": "14-CRM-Musteri-Adayi",
+   "caption": "Müşteri aradı, not aldın, kâğıt kayboldu mu? KeyBrox CRM'de talep, görev ve gezdirme tek akışta ilerler; kimse arada kaynamaz. Defter bitti, sistem başladı. Ücretsiz deneyin: keybrox.com\n\n#KeyBrox #EmlakDanismani #CRM #MusteriTakibi #EmlakOfisi #GayrimenkulYazilimi #EmlakTeknolojisi",
+   "post": [
+    "media/post/14/01.jpg"
+   ],
+   "story": [
+    "media/story/14/01.jpg"
+   ]
+  },
+  {
+   "sira": 15,
+   "ad": "15-Komisyon-Bolusumu",
+   "caption": "İşlem kapandı, sıra paya geldi... ve tartışma mı çıktı? KeyBrox'ta bölüşüm baştan yazılır, toplam %100 etmeden kayıt kapanmaz. Herkes payını bilir, kimse kimseye küsmez. 14 gün ücretsiz, kredi kartı istenmez → keybrox.com\n\n#KeyBrox #KomisyonBolusumu #EmlakDanismani #EmlakOfisi #Broker #GayrimenkulYazilimi #EmlakTeknolojisi",
+   "post": [
+    "media/post/15/01.jpg"
+   ],
+   "story": [
+    "media/story/15/01.jpg"
+   ]
+  },
+  {
+   "sira": 16,
+   "ad": "16-AI-Ilan-Metni",
+   "caption": "Yabancı alıcı ilanını anlamadan mı geçip gidiyor? KeyBrox AI İlan Metni aynı ilanı 8 dilde, yayına hazır şekilde önüne koyar; başlık, açıklama, hepsi saniyede yazılır. Sen portföyüne bak, metin derdini AI'ya bırak. keybrox.com'da 14 gün ücretsiz deneyin\n\n#KeyBrox #EmlakDanismani #IlanMetni #YabanciAlici #GayrimenkulYazilimi #EmlakIlan #EmlakTeknolojisi",
+   "post": [
+    "media/post/16/01.jpg"
+   ],
+   "story": [
+    "media/story/16/01.jpg"
+   ]
+  },
+  {
+   "sira": 17,
+   "ad": "17-Ilan-Portali-SEO",
+   "caption": "İlanın başkasının portalında kalabalığa mı karışıyor? KeyBrox'ta kendi portalın var: her ilan Google'ın bulacağı şekilde açılır, üstelik 8 dilde yayınlanır. Trafik sana gelir, müşteri sende kalır. Şimdi ücretsiz deneyin → keybrox.com\n\n#KeyBrox #EmlakDanismani #SEO #IlanPortali #EmlakOfisi #GayrimenkulYazilimi #EmlakTeknolojisi",
+   "post": [
+    "media/post/17/01.jpg"
+   ],
+   "story": [
+    "media/story/17/01.jpg"
+   ]
+  },
+  {
+   "sira": 18,
+   "ad": "18-Onur-Duvari",
+   "caption": "Ay bitti, en çok kapanışı kim yaptı? Onur Duvarı'nda ismin plakette, emeğin tüm ekibin gözü önünde. İyi iş görünmeden kalmaz, motivasyon düşmez. 14 günlük deneme sizi bekliyor: keybrox.com\n\n#KeyBrox #OnurDuvari #EmlakDanismani #EkipMotivasyonu #EmlakOfisi #Basari #GayrimenkulYazilimi",
+   "post": [
+    "media/post/18/01.jpg"
+   ],
+   "story": [
+    "media/story/18/01.jpg"
+   ]
+  },
+  {
+   "sira": 19,
+   "ad": "19-Ucretsiz-Ev-Degerleme",
+   "caption": "Evin ne eder, komşuya mı soruyorsun? KeyBrox canlı ilanları tarar, üç ayrı senaryoyla gerekçeli fiyatı önüne koyar. Ne ucuza kaptırırsın ne fiyatta bekletirsin. Ücretsiz, üyeliksiz → keybrox.com\n\n#KeyBrox #EvDegerleme #EvimNeEder #EvSahibi #Emlak #KonutFiyatlari #UcretsizArac",
+   "post": [
+    "media/post/19/01.jpg"
+   ],
+   "story": [
+    "media/story/19/01.jpg"
+   ]
+  },
+  {
+   "sira": 20,
+   "ad": "20-Aday-Skoru",
+   "caption": "Günde onlarca kişi soruyor, kaçı gerçekten alıcı? KeyBrox'un yapay zekâ niyet skoru sıcak adayı öne çıkarır; sen vaktini alacak olana ayırırsın. Boşa kürek çekmek yok. Ücretsiz deneme için: keybrox.com\n\n#KeyBrox #EmlakDanismani #YapayZeka #SicakAday #EmlakOfisi #GayrimenkulYazilimi #SatisTeknigi",
+   "post": [
+    "media/post/20/01.jpg"
+   ],
+   "story": [
+    "media/story/20/01.jpg"
+   ]
+  },
+  {
+   "sira": 21,
+   "ad": "21-Panik-Butonu",
+   "caption": "Akşam saatinde tanımadığın biriyle boş daireye giriyorsun — ya bir terslik olursa? KeyBrox Panik Butonu'na 3 saniye basılı tut: konumun anında paylaşılır, 4 kademeli alarm zinciri başlar, cevap gelmezse bir üst kademe devreye girer. Sahada kendini yalnız hissetme. keybrox.com — 14 gün ücretsiz\n\n#KeyBrox #EmlakDanismani #PanikButonu #SahadaGuvenlik #EmlakOfisi #GayrimenkulYazilimi #KadinDanisman",
+   "post": [
+    "media/post/21/01.jpg"
+   ],
+   "story": [
+    "media/story/21/01.jpg"
+   ]
+  },
+  {
+   "sira": 22,
+   "ad": "22-Sanal-Tur-360",
+   "caption": "Bakıp beğenmeyecek müşteriye kaç kez yol yaptın? 360° tur linkini gönder, müşteri evi evinden gezsin; ciddiyse kapıya gelsin. Sen anahtarla koşturmak yerine satışa odaklan. 14 gün boyunca ücretsiz kullanın → keybrox.com\n\n#KeyBrox #SanalTur #EmlakDanismani #EmlakOfisi #GayrimenkulYazilimi #EmlakTeknolojisi #EvGezme",
+   "post": [
+    "media/post/22/01.jpg"
+   ],
+   "story": [
+    "media/story/22/01.jpg"
+   ]
+  },
+  {
+   "sira": 23,
+   "ad": "23-Para-Sizintisi",
+   "caption": "Kazanılmış ama tahsil edilmemiş para, ofisin sessiz zararıdır. KeyBrox takipsiz alacakları ortaya çıkarır, geciken tahsilatta uyarı düşer. Emeğinin karşılığı karanlıkta kaybolmaz. Hemen deneyin: keybrox.com\n\n#KeyBrox #Tahsilat #EmlakOfisi #Muhasebe #OfisYonetimi #Broker #GayrimenkulYazilimi",
+   "post": [
+    "media/post/23/01.jpg"
+   ],
+   "story": [
+    "media/story/23/01.jpg"
+   ]
+  },
+  {
+   "sira": 24,
+   "ad": "24-Broker-Paneli",
+   "caption": "Ofisi yönetmek için beş ayrı deftere mi bakıyorsun? KeyBrox Broker Paneli ekibi, ilanları ve muhasebeyi tek ekranda toplar. Aç, bak, yönet — hepsi bu. 14 gün ücretsiz dene → keybrox.com\n\n#KeyBrox #EmlakOfisi #Broker #OfisYonetimi #GayrimenkulYazilimi #EmlakTeknolojisi #CRM",
+   "post": [
+    "media/post/24/01.jpg"
+   ],
+   "story": [
+    "media/story/24/01.jpg"
+   ]
+  },
+  {
+   "sira": 25,
+   "ad": "25-Ev-Degerleme",
+   "caption": "Müşteri \"komşu daha pahalıya sattı\" mı diyor? Artık cevabın hazır: KeyBrox Ev Değerleme canlı ilanları tarar, üç ayrı satış senaryosunu gerekçesiyle önüne koyar. Sen fiyatı söylemezsin, rapor konuşur. Ücretsiz deneyin: keybrox.com\n\n#KeyBrox #EmlakDanismani #EvDegerleme #GayrimenkulYazilimi #EmlakOfisi #FiyatAnalizi #EmlakTeknolojisi",
+   "post": [
+    "media/post/25/01.jpg"
+   ],
+   "story": [
+    "media/story/25/01.jpg"
+   ]
+  },
+  {
+   "sira": 26,
+   "ad": "26-Danisman-Ilk-Yanit-Suresi",
+   "caption": "Müşteri üç ofise birden yazıyor — işi ilk dönen alıyor. KeyBrox her talebin yanıt süresini ölçer, geciken danışmanı uyarır; broker ekibin dönüş hızını tek ekranda görür. Geç dönen kaybeder. 14 gün ücretsiz, kredi kartı istenmez → keybrox.com\n\n#KeyBrox #EmlakBroker #EmlakDanismani #HizliYanit #EkipYonetimi #EmlakOfisi #GayrimenkulYazilimi",
+   "post": [
+    "media/post/26/01.jpg"
+   ],
+   "story": [
+    "media/story/26/01.jpg"
+   ]
+  },
+  {
+   "sira": 27,
+   "ad": "27-Hesaplama-Merkezi",
+   "caption": "Müşteri karşında bekliyor, sen hâlâ hesap makinesiyle mi boğuşuyorsun? KeyBrox Hesaplama Merkezi'nde komisyon, tapu, kredi, kira, getiri ve dönüşüm hesabı tek ekranda. Rakamı anında söyle, müşteri masadan kalkmasın. keybrox.com'da 14 gün ücretsiz deneyin\n\n#KeyBrox #EmlakDanismani #HesaplamaAraclari #EmlakOfisi #GayrimenkulYazilimi #KomisyonHesabi #EmlakTeknolojisi",
+   "post": [
+    "media/post/27/01.jpg"
+   ],
+   "story": [
+    "media/story/27/01.jpg"
+   ]
+  },
+  {
+   "sira": 28,
+   "ad": "28-Franchise-Ag-Yonetimi",
+   "caption": "Ağındaki ofislerden haber almak için hâlâ telefon mu açıyorsun? KeyBrox tüm ağı tek haritaya koyar: ofisler, ciro, tahsilat ve denetim tek panelde. Kim ne durumda, sormadan görürsün. Şimdi ücretsiz deneyin → keybrox.com\n\n#KeyBrox #Franchise #EmlakFranchise #CokluOfis #GayrimenkulYazilimi #AgYonetimi #EmlakOfisi",
+   "post": [
+    "media/post/28/01.jpg"
+   ],
+   "story": [
+    "media/story/28/01.jpg"
+   ]
+  },
+  {
+   "sira": 29,
+   "ad": "29-Kayitli-Arama-Bildirim",
+   "caption": "Bugün aradığını bulamayan alıcı yarın başka kapıya mı gitsin? KeyBrox'ta müşterin aramasını kaydeder; kriterine uyan yeni ilan yayınlanınca e-posta kendiliğinden gider. Alıcı sende kalır, portföyün ilk ona gösterilir. 14 günlük deneme sizi bekliyor: keybrox.com\n\n#KeyBrox #KayitliArama #EmlakDanismani #AliciTakibi #EmlakOfisi #IlanBildirimi #GayrimenkulYazilimi",
+   "post": [
+    "media/post/29/01.jpg"
+   ],
+   "story": [
+    "media/story/29/01.jpg"
+   ]
+  },
+  {
+   "sira": 30,
+   "ad": "30-Performans-Karnesi",
+   "caption": "Prim zamanı \"ben daha çok çalıştım\" tartışması mı çıkıyor? Performans Karnesi her danışmanın işini kayıttan gösterir; hesap ortada olunca tartışma biter. Ücretsiz deneme için: keybrox.com\n\n#KeyBrox #PerformansTakibi #EmlakBrokeri #EkipYonetimi #EmlakOfisi #GayrimenkulYazilimi #EmlakDanismani",
+   "post": [
+    "media/post/30/01.jpg"
+   ],
+   "story": [
+    "media/story/30/01.jpg"
+   ]
+  },
+  {
+   "sira": 31,
+   "ad": "31-Sanal-Dron",
+   "caption": "Arsa müşterisi haritadan bir şey anlamıyor mu? Ada ve parseli yaz, KeyBrox sana sinematik havadan arazi videosu hazırlasın — dron ekibi, çekim günü, kurgu derdi yok. Parsel sınırı videoda çizili, müşteri neyi aldığını gözüyle görür. keybrox.com — 14 gün ücretsiz\n\n#KeyBrox #SanalDron #ArsaVideosu #EmlakDanismani #ArsaSatisi #EmlakTeknolojisi #GayrimenkulYazilimi",
+   "post": [
+    "media/post/31/01.jpg"
+   ],
+   "story": [
+    "media/story/31/01.jpg"
+   ]
+  },
+  {
+   "sira": 32,
+   "ad": "32-Gezdirme",
+   "caption": "Gezdirmeye giderken aklında yarım bilgi mi var? KeyBrox'ta randevu, güzergâh ve yer gösterme zabıtı tek yerde; müşterinin karşısına hazır çıkarsın. Hazır duruş güven verir, güven satış getirir. 14 gün boyunca ücretsiz kullanın → keybrox.com\n\n#KeyBrox #EmlakDanismani #Gezdirme #YerGosterme #EmlakOfisi #GayrimenkulYazilimi #SahaCalismasi",
+   "post": [
+    "media/post/32/01.jpg"
+   ],
+   "story": [
+    "media/story/32/01.jpg"
+   ]
+  },
+  {
+   "sira": 33,
+   "ad": "33-EIDS-Onayi",
+   "caption": "Müşteri \"bu ilan gerçek mi?\" diye tereddüt mü ediyor? KeyBrox'ta ilanın EİDS resmi kayıt rozetiyle yayına çıkar — rozeti gören müşteri içi rahat arar, sahte ilan şüphesi masadan kalkar. Kayıtlı ilan, güvenilir iş. Hemen deneyin: keybrox.com\n\n#KeyBrox #EIDS #EmlakIlani #ResmiKayit #EmlakDanismani #EmlakOfisi #GayrimenkulYazilimi",
+   "post": [
+    "media/post/33/01.jpg"
+   ],
+   "story": [
+    "media/story/33/01.jpg"
+   ]
+  },
+  {
+   "sira": 34,
+   "ad": "34-Islem-Kapatma",
+   "caption": "Kapanış günü evrak peşinde mi koşuyorsun? KeyBrox'ta işlem kapatma tek ekran: belgeler, bölüşüm, tahsilat — hepsi hazır, imzaya öyle oturursun. 14 gün ücretsiz dene → keybrox.com\n\n#KeyBrox #IslemKapatma #EmlakDanismani #EmlakOfisi #Satis #Broker #GayrimenkulYazilimi",
+   "post": [
+    "media/post/34/01.jpg"
+   ],
+   "story": [
+    "media/story/34/01.jpg"
+   ]
+  },
+  {
+   "sira": 35,
+   "ad": "35-Risk-Analizi",
+   "caption": "İş bittikten sonra sürprizle mi uğraşmak istersin, imzadan önce riski görmek mi? KeyBrox Risk Analizi işlemin ve bölgenin risk göstergelerini önceden önüne çıkarır; sorun kapıya gelmeden haberin olur. Masaya rahat oturursun. Ücretsiz deneyin: keybrox.com\n\n#KeyBrox #EmlakDanismani #RiskAnalizi #GuvenliIslem #GayrimenkulYazilimi #EmlakOfisi #EmlakTeknolojisi",
+   "post": [
+    "media/post/35/01.jpg"
+   ],
+   "story": [
+    "media/story/35/01.jpg"
+   ]
+  },
+  {
+   "sira": 36,
+   "ad": "36-Ag-Istatistikleri",
+   "caption": "\"Ağ nasıl gidiyor?\" sorusuna hâlâ \"iyi galiba\" mı diyorsun? KeyBrox Ağ İstatistikleri ofis performans sıralamasını ve bölge özetini tek ekrana koyar. Kim önde, nerede iş var — bakınca görürsün. 14 gün ücretsiz, kredi kartı istenmez → keybrox.com\n\n#KeyBrox #Franchise #Istatistik #EmlakFranchise #Performans #GayrimenkulYazilimi #AgYonetimi",
+   "post": [
+    "media/post/36/01.jpg"
+   ],
+   "story": [
+    "media/story/36/01.jpg"
+   ]
+  },
+  {
+   "sira": 37,
+   "ad": "37-Gorev-Komuta-Merkezi",
+   "caption": "Ekip sahada, sen ofiste — kim ne yapıyor? KeyBrox Görev Komuta Merkezi'nde canlı görev takibi ve danışman karnesi tek ekranda. Sormakla vakit kaybetme, ekrandan gör. keybrox.com'da 14 gün ücretsiz deneyin\n\n#KeyBrox #EmlakBroker #EkipYonetimi #GorevTakibi #EmlakOfisi #GayrimenkulYazilimi #DanismanKarnesi",
+   "post": [
+    "media/post/37/01.jpg"
+   ],
+   "story": [
+    "media/story/37/01.jpg"
+   ]
+  },
+  {
+   "sira": 38,
+   "ad": "38-Asist-Zinciri",
+   "caption": "Müşterin senin bölgende değil diye kaçsın mı? Pasla gitsin: Asist Zinciri'nde işleme pas veren danışman payını da XP'sini de alır. Ekipte \"benim müşterim\" kavgası biter, herkes kazanır. Şimdi ücretsiz deneyin → keybrox.com\n\n#KeyBrox #EmlakDanismani #AsistZinciri #EkipRuhu #EmlakOfisi #GayrimenkulYazilimi #Motivasyon",
+   "post": [
+    "media/post/38/01.jpg"
+   ],
+   "story": [
+    "media/story/38/01.jpg"
+   ]
+  },
+  {
+   "sira": 39,
+   "ad": "39-Kredi-Kahini",
+   "caption": "Ne kadar ev alabilirsin, bankaya sormadan bilmek ister misin? Kredi Kâhini'ne gelirini yaz; azami fiyat, aylık taksit ve toplam faiz saniyede karşında. Hayal kurma, hesabını bil. Ücretsiz, üyeliksiz → keybrox.com\n\n#KeyBrox #KrediHesaplama #EvAlmak #KonutKredisi #AlimGucu #IlkEv #UcretsizArac",
+   "post": [
+    "media/post/39/01.jpg"
+   ],
+   "story": [
+    "media/story/39/01.jpg"
+   ]
+  },
+  {
+   "sira": 40,
+   "ad": "40-Ofis-Mikrositesi",
+   "caption": "Ofisinin adı hep başkasının sitesinde mi anılacak? KeyBrox'ta ofisinin kendi mikrositesi olur: kendi adresin, kendi vitrinin, kendi müşterin. Portföyün ve ekibin tek çatı altında boy gösterir. 14 günlük deneme sizi bekliyor: keybrox.com\n\n#KeyBrox #OfisSitesi #EmlakOfisi #Broker #KurumsalVitrin #GayrimenkulYazilimi #EmlakTeknolojisi",
+   "post": [
+    "media/post/40/01.jpg"
+   ],
+   "story": [
+    "media/story/40/01.jpg"
+   ]
+  },
+  {
+   "sira": 41,
+   "ad": "41-Portfoy-Havuzu",
+   "caption": "Ofisler arası mail grubunda her gün onlarca portföy dolaşıyor. Hangisi senin müşterine uyuyor?\n\nKeyBrox Portföy Havuzu artık bunu senin yerine okuyor:\n\n• Gruba düşen her portföy dakikalar içinde sisteme giriyor\n• Senin ilanınla ya da alıcı adayınla eşleşirse anında bildirim geliyor — hem sana hem broker'ına\n• Uyum 0-100 arası puanlanıyor; \"bana %80 altını gönderme\" diyebiliyorsun\n• İşine yaramayan mail sana hiç görünmüyor\n\nAradığın portföyü profiline yaz, ofisindeki herkes görsün. Eşleşmeyi sistem bulsun, sen telefonu aç.\n\nkeybrox.com\n\n#KeyBrox #emlak #emlakdanışmanı #portföy #gayrimenkul #emlakofisi #portföyhavuzu #eşleşme #proptech #emlakyazılımı",
+   "post": [
+    "media/post/41/01.jpg"
+   ],
+   "story": [
+    "media/story/41/01.jpg"
+   ]
+  },
+  {
+   "sira": 42,
+   "ad": "42-14-Gun-Ucretsiz-Deneme",
+   "caption": "Yazılım almadan önce görmek istemez misin? KeyBrox'u 14 gün ücretsiz denersin; kredi kartı sorulmaz, istediğin an bırakırsın. Beğenirsen devam, hepsi bu. Ücretsiz deneme için: keybrox.com\n\n#KeyBrox #UcretsizDeneme #EmlakOfisi #Broker #EmlakDanismani #GayrimenkulYazilimi #EmlakTeknolojisi",
+   "post": [
+    "media/post/42/01.jpg"
+   ],
+   "story": [
+    "media/story/42/01.jpg"
+   ]
+  }
+ ]
 }
