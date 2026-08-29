@@ -1,5 +1,5 @@
 {
-  "sonraki": 24,
+  "sonraki": 25,
   "log": [
     {
       "zaman": "2026-08-24T08:13:15+00:00",
@@ -168,6 +168,16 @@
       "gonderi_id": "18113109550796320",
       "hikaye_idleri": [
         "18198796225332776"
+      ],
+      "sonuc": "BASARILI"
+    },
+    {
+      "zaman": "2026-08-29T10:40:14+00:00",
+      "sira": 24,
+      "ad": "24-Broker-Paneli",
+      "gonderi_id": "18092284103436588",
+      "hikaye_idleri": [
+        "18173759596439407"
       ],
       "sonuc": "BASARILI"
     }
