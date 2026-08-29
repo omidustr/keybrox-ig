@@ -1,5 +1,5 @@
 {
-  "sonraki": 20,
+  "sonraki": 21,
   "log": [
     {
       "zaman": "2026-08-24T08:13:15+00:00",
@@ -128,6 +128,16 @@
       "gonderi_id": "17884273335683471",
       "hikaye_idleri": [
         "18114505166066690"
+      ],
+      "sonuc": "BASARILI"
+    },
+    {
+      "zaman": "2026-08-29T09:40:15+00:00",
+      "sira": 20,
+      "ad": "20-Aday-Skoru",
+      "gonderi_id": "18095007704633306",
+      "hikaye_idleri": [
+        "18146702545553646"
       ],
       "sonuc": "BASARILI"
     }
