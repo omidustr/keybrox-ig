@@ -1,5 +1,5 @@
 {
-  "sonraki": 26,
+  "sonraki": 27,
   "log": [
     {
       "zaman": "2026-08-24T08:13:15+00:00",
@@ -188,6 +188,16 @@
       "gonderi_id": "18144478285563033",
       "hikaye_idleri": [
         "18110511662329740"
+      ],
+      "sonuc": "BASARILI"
+    },
+    {
+      "zaman": "2026-08-29T11:15:48+00:00",
+      "sira": 26,
+      "ad": "26-Danisman-Ilk-Yanit-Suresi",
+      "gonderi_id": "17906268315500034",
+      "hikaye_idleri": [
+        "18119734975904801"
       ],
       "sonuc": "BASARILI"
     }
