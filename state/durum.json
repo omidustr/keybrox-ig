@@ -1,5 +1,5 @@
 {
-  "sonraki": 21,
+  "sonraki": 22,
   "log": [
     {
       "zaman": "2026-08-24T08:13:15+00:00",
@@ -138,6 +138,16 @@
       "gonderi_id": "18095007704633306",
       "hikaye_idleri": [
         "18146702545553646"
+      ],
+      "sonuc": "BASARILI"
+    },
+    {
+      "zaman": "2026-08-29T09:55:01+00:00",
+      "sira": 21,
+      "ad": "21-Panik-Butonu",
+      "gonderi_id": "18095851586172420",
+      "hikaye_idleri": [
+        "17970869532135135"
       ],
       "sonuc": "BASARILI"
     }
