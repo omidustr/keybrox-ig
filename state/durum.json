@@ -1,5 +1,5 @@
 {
-  "sonraki": 41,
+  "sonraki": 42,
   "log": [
     {
       "zaman": "2026-08-24T08:13:15+00:00",
@@ -338,6 +338,16 @@
       "gonderi_id": "18015533855736567",
       "hikaye_idleri": [
         "18210732451354709"
+      ],
+      "sonuc": "BASARILI"
+    },
+    {
+      "zaman": "2026-08-30T08:55:11+00:00",
+      "sira": 41,
+      "ad": "41-Portfoy-Havuzu",
+      "gonderi_id": "18065264627588869",
+      "hikaye_idleri": [
+        "18081504998317267"
       ],
       "sonuc": "BASARILI"
     }
