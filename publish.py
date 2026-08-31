@@ -2,6 +2,12 @@
 """KeyBrox_TR — Instagram otomatik yayinlayici.
 Sirdaki seti alir: 1 gonderi (tek kareyse foto, coklu kareyse carousel) + hikaye
 karesi/kareleri. Basarili olursa siradaki sete gecer.
+
+GUNLUK SINIR (31 Agu 2026'da eklendi): cron guvenlik-agi tekrar denemeleri
+gunde 15-20 kez calisabiliyor; sinirsiz sira ilerlemesi 30 gunluk kuyrugu
+2 gunde tuketti ve ardindan Meta tarafinda art arda hata (muhtemelen hiz
+siniri) basladi. Artik gunde en fazla GUNLUK_LIMIT set yayinlanir; asilan
+denemeler sessizce cikar — cift yayin yapmaz, siradaki gune tasmaz.
 """
 import json, os, sys, time, urllib.parse, urllib.request, datetime
 
@@ -13,6 +19,14 @@ REF   = os.environ.get("MEDIA_REF", "main")
 RAW   = f"https://raw.githubusercontent.com/{REPO}/{REF}/"
 ROOT  = os.path.dirname(os.path.abspath(__file__))
 DRY   = os.environ.get("DRY_RUN", "").lower() in ("1", "true", "yes")
+GUNLUK_LIMIT = 2  # 11:00 + 19:00 = gunde en fazla 2 set
+
+# Turkiye 2016'dan beri yaz saati uygulamiyor — sabit UTC+3.
+TR = datetime.timezone(datetime.timedelta(hours=3))
+
+
+def bugun():
+    return datetime.datetime.now(TR).date().isoformat()
 
 
 def call(method, path, params):
@@ -51,6 +65,12 @@ def main():
     state_path = f"{ROOT}/state/durum.json"
     state = json.load(open(state_path, encoding="utf-8"))
     nxt = state["sonraki"]
+
+    gunluk = state.setdefault("gunluk_sayac", {})
+    bugun_str = bugun()
+    if gunluk.get(bugun_str, 0) >= GUNLUK_LIMIT:
+        print(f"{bugun_str} icin gunluk sinir ({GUNLUK_LIMIT}) doldu. Cikiliyor.")
+        return 0
 
     item = next((s for s in content["sets"] if s["sira"] == nxt), None)
     if item is None:
@@ -102,6 +122,7 @@ def main():
         print("  HIKAYE YAYINLANDI:", sid)
 
     state["sonraki"] = nxt + 1
+    gunluk[bugun_str] = gunluk.get(bugun_str, 0) + 1
     state["log"].append({
         "zaman": now, "sira": nxt, "ad": item["ad"],
         "gonderi_id": post_id, "hikaye_idleri": story_ids, "sonuc": "BASARILI",

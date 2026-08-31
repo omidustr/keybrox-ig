@@ -2,14 +2,16 @@ name: KeyBrox Instagram yayin
 
 on:
   schedule:
-    # Tam saatte (0 8 / 0 16) tetiklenme 27 Agu'da iki kez 3+ saat gecikti
-    # (11:00 -> 14:16, 19:00 -> 22:35). GitHub tam-saat noktalarini en yogun
-    # aninlar olarak belgeliyor, rastgele bir dakikaya kaydirmayi oneriyor.
-    # Simdi :07/:22/:37/:52'de, hedef saatten sonraki ~4 saat boyunca tekrar
-    # dener; publish.py kuyrukta is yoksa aninda cikar (idempotent), bu
-    # yuzden fazladan tetiklenme guvenlidir ve cift gonderi yapmaz.
-    - cron: '7,22,37,52 8-11 * * *'    # 11:07-14:52 Turkiye saati
-    - cron: '7,22,37,52 16-19 * * *'   # 19:07-22:52 Turkiye saati
+    # 31 Agu 2026: 4 saatlik pencere (7,22,37,52 x 4 saat = ~16 deneme/hedef)
+    # gunluk sinir OLMADIGI icin sirali kuyrugu 30 gunluk yerine 2 gunde
+    # tuketti, ardindan Meta tarafinda art arda hata basladi (muhtemelen hiz
+    # siniri). Artik publish.py'de "gunde en fazla 2 set" kilidi VAR — asiri
+    # tetiklenme artik zararsiz — ama pencere yine de dar tutuluyor ki
+    # Actions gunlugu havai fisek gibi gorunmesin. Hedeften sonraki ~50 dk
+    # icinde 3 deneme (:07/:27/:47), tam saatte degil (GitHub'in en yogun
+    # oldugu nokta).
+    - cron: '7,27,47 8 * * *'    # 11:07-11:47 Turkiye saati
+    - cron: '7,27,47 16 * * *'   # 19:07-19:47 Turkiye saati
   workflow_dispatch:
     inputs:
       dry_run:
